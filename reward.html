@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>RewardAmazonPay</title>
+    <style>
+      :root {
+        background: url("rewarde.svg");
+        font-weight: bold;
+        font-family: system-ui;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      }
+      div > div > h1 {
+        font-size: 36px;
+        display: flex;
+        color: #fff;
+        justify-content: center;
+      }
+      .btn-grp {
+        display: flex;
+        justify-content: center;
+      }
+      .btn-grp .clicker {
+        width: 50%;
+        padding: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 0px 4px;
+        border: none;
+      }
+      .btn-grp .clicker:hover {
+        transform: scale(1.03);
+        background-color: rgb(197 222 253);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-touch">
+        <h1>Welcome to Clickers.com</h1>
+        <div class="btn-grp">
+          <button onclick="fire()" class="clicker">CLICK</button>
+          <button onclick="fire1()" class="clicker">CLICK</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function fire() {
+      for (let i = 30; i < 90; i++) {
+        window.open(
+          `https://www.bing.com/search?q=crazyboi14dz+tag${i}+target&FORM=QSRE2`
+        );
+      }
+    }
+    function fire1() {
+      for (let i = 30; i < 60; i++) {
+        window.open(
+          `https://www.bing.com/search?q=Bing+ho${i}mepage+quiz&qs=n&form=QBRE&sp=-1&pq=&sc=0-0&sk=&cvid=C360859D432A4F9D80166C70417765D4&ghsh=0&ghacc=0&ghpl=`
+        );
+      }
+    }
+  </script>
+</html>
